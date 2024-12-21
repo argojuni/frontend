@@ -5,13 +5,38 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Coba Tailwind</title>
     <link rel="stylesheet" href="css/style.css">
+    <style>
+        *{
+            border: 1px solid red;
+        }
+    </style>
 </head>
 <body>
-    <h1>TailwindCSS</h1>
+    <h1 class="text-6xl font-bold text-center my-10">Belajar <span class="bg-gradient-to-r from-blue-500 to-teal-800 bg-clip-text text-transparent hover:animate-bounce">TailwindCSS</span></h1>
 
-    <section>
+    <section class="mb-10 bg-gradient-to-r from-indigo-200 via-green-400 to-yellow-300">
         <h2>Spacing</h2>
         <div class="m-4">Margin</div>
+        <div class="py-8 px-4">padding</div>
+    </section>
+
+    <section class="mb-10">
+        <h2>Saizing</h2>
+        <div class="w-32 h-32">Kotak 1</div>
+        <div class="max-w-xs min-h-fit">Kotak 2</div>
+    </section>
+
+    <section class="mb-10 font-mono max-w-3xl mx-auto">
+        <h2 class="mb-2 text-4xl font-semibold">Typography</h2>
+        <div class="mb-4 text-lg text-gray-500">
+            By Juni
+        </div>
+        <p class="mb-4">
+            Lorem ipsum dolor, sit amet <a href="" class="underline font-semibold"> consectetur </a> adipisicing elit. Voluptate unde excepturi fugiat mollitia, veritatis dolorem, eos aliquam culpa ipsum atque recusandae, eius id itaque distinctio earum? Nisi corrupti aperiam minus libero dolor atque deleniti accusantium est quae consequuntur eaque tempora quasi cupiditate obcaecati recusandae sint, magnam minima unde non labore?
+        </p>
+        <blockquote class="mb-4 italic font-thin text-xl">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis sapiente ipsum asperiores minus! In earum amet, ut ratione repellendus reiciendis."</blockquote>
+        <p class="mb-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet eius iste repudiandae sed neque nobis quibusdam deleniti! Aut, debitis doloribus.</p>
+        <p class="mb-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magnam minus distinctio ullam autem, molestias dignissimos, repudiandae labore facilis perspiciatis deserunt neque. Quod aperiam minima voluptates quis eligendi. Blanditiis, sint sunt!</p>
     </section>
 </body>
 </html>
